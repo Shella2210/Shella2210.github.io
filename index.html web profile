@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+  rel="stylesheet" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">My Profile</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#profile">Profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#edit">Edit</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENT -->
+  <div class="container py-5">
+    <div class="row g-4">
+      <!-- Profile -->
+      <div class="col-lg-4" id="profile">
+        <div class="card shadow-sm border-0">
+          <div class="card-body text-center p-4">
+            <img src="c:\Users\viand\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\D71822DC3CFDDD95A4B0E07FA69E7D9952114CAD\transfers\2026-30\WhatsApp Image 2026-07-22 at 10.37.30.jpeg" alt="Profile photo" class="rounded-circle img-fluid mb-3"
+              style="width: 140px; height: 140px;">
+            <h4 class="mb-1">Shella</h4>
+            <p class="text-muted mb-3">Web Developer · Medan</p>
+            <div class="d-flex justify-content-center gap-2 mb-3">
+              <span class="badge bg-primary">UI/UX</span>
+              <span class="badge bg-success">Frontend</span>
+              <span class="badge bg-secondary">Bootstrap 5</span>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary">Follow</button>
+              <button class="btn btn-outline-primary">Message</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-3 mt-1">
+          <div class="col-4">
+            <div class="card text-center shadow-sm border-0">
+              <div class="card-body py-3">
+                <h5 class="mb-0">128</h5>
+                <small class="text-muted">Posts</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card text-center shadow-sm border-0">
+              <div class="card-body py-3">
+                <h5 class="mb-0">2.4k</h5>
+                <small class="text-muted">Followers</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card text-center shadow-sm border-0">
+              <div class="card-body py-3">
+                <h5 class="mb-0">87</h5>
+                <small class="text-muted">Following</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About & Skills -->
+      <div class="col-8">
+        <div class="card" id="about">
+          <div class="card-body">
+            <h5 class="card-title">About Me</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Know Me !</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="card mt-3" id="skills">
+          <div class="card-body">
+            <h5 class="card-title">Skills</h5>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>HTML / CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>Bootstrap 5</span>
+                <span>85%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-success" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <div class="d-flex justify-content-between">
+                <span>JavaScript</span>
+                <span>75%</span>
+              </div>
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-warning" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="row">
+      <div class="d-flex justify-content-between mt-3">
+        <span>Portofolio</span>
+        <span class="badge bg-success">Selected Work</span>
+      </div>
+
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="card m-3" style="width: 18rem;">
+          <img src="https://picsum.photos/600/400?random=11" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card m-3" style="width: 18rem;">
+          <img src="https://picsum.photos/600/400?random=12" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card m-3" style="width: 18rem;">
+          <img src="https://picsum.photos/600/400?random=13" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Edit Profile -->
+    <div class="row mt-4" id="edit">
+      <div class="col-lg-6 mx-auto">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Edit Profile</h5>
+            <form>
+              <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="put your first name">
+              </div>
+              <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName">
+                <div class="form-text">We’ll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.
